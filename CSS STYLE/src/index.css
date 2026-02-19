@@ -1,0 +1,7 @@
+.button{
+  background-color: hsl(176, 79%, 45%);
+  color: aliceblue;
+  border: 1px solid ;
+  border-radius: 5px;
+  border-color: rgb(33, 69, 69);
+}
