@@ -1,0 +1,15 @@
+.loged{
+    background-color: brown;
+    color: aliceblue;
+    padding-left: 10px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.notloged{
+    background-color: rgb(165, 42, 120);
+    color: aliceblue;
+    padding-left: 10px;
+    height: 30px;
+    border-radius: 10px;
+}
