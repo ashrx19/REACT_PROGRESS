@@ -65,7 +65,7 @@ function Mycomponents(){
                 Delivery
             </label>
              </>
-//mycomponents
+
 
 
         )
