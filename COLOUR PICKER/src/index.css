@@ -1,0 +1,43 @@
+.Color-picker-container {
+  border: 1px solid #222;
+  border-radius: 8px;
+  padding: 24px;
+  margin: 40px auto;
+  max-width: 320px;
+  background: #f9f9f9;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.Color-display {
+  width: 150px;
+  height: 150px;
+  margin: 16px 0;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  transition: background 0.3s;
+}
+
+input[type="color"] {
+  border: none;
+  width: 48px;
+  height: 48px;
+  background: none;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+label {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 8px;
+  display: block;
+}
+
