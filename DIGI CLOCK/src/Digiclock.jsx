@@ -6,6 +6,7 @@ function Digiclock(){
 
 const[time,setTime] = useState(new Date());
 
+
 useEffect(()=>{
     const intervalid =setInterval(()=>{
         setTime(new Date());
