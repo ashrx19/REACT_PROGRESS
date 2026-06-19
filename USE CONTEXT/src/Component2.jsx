@@ -4,7 +4,7 @@ function Component2(ops){
     return(
         <div className="Box">
             <h1>Components</h1>
-            <Component3 />
+            
         </div>
     )
 }

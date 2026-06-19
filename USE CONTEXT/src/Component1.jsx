@@ -1,5 +1,6 @@
 import Component2 from "./Component2";
 import { useState, createContext } from "react";
+import Component4 from "./Component4";
 
 export const UserCont = createContext();
 
@@ -11,10 +12,10 @@ function Component1(){
         <div className="Box">
             <h1>Components</h1>
             <h3>Hello {name}</h3>
-           
-
+            
              <UserCont.Provider value={name} >
                 <Component2/>
+                <Component4></Component4>
             </UserCont.Provider>
         </div>
     )

@@ -7,6 +7,7 @@ function App() {
     <>
       <h1>Current Value {count.current}</h1>
       <br></br>
+      
       <button onClick={() => {
         count.current++;
         console.log(count.current);
